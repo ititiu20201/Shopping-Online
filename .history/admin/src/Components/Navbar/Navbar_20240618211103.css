@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* optional: add a background color */
+}
+
+.nav-logo {
+  width: 50px;
+}
+.navbar p {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.nav-profile {
+  width: 50px;
+}
+@media (max-width: 800px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .nav-logo {
+    width: 150px;
+  }
+
+  .nav-profile {
+    width: 60px;
+  }
+}

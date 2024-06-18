@@ -1,0 +1,16 @@
+.add-product {
+  margin: 20px;
+}
+
+.addproduct-itemfield {
+  margin-bottom: 10px;
+}
+
+.addproduct-itemfield p {
+  margin: 0;
+}
+
+.addproduct-itemfield input {
+  padding: 5px;
+  width: 100%;
+}

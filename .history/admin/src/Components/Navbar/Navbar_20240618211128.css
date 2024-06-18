@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* optional: add a background color */
+}
+
+.nav-logo {
+  height: 50px; /* adjust size as needed */
+  margin-right: 10px; /* space between the logo and text */
+}
+
+.nav-profile {
+  height: 50px; /* adjust size as needed */
+  margin-left: auto; /* push the profile image to the far right */
+}
+
+.navbar p {
+  margin: 0;
+  font-size: 1.5em; /* adjust font size as needed */
+  color: #333; /* optional: change text color */
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .nav-logo {
+    width: 150px;
+  }
+
+  .nav-profile {
+    width: 60px;
+  }
+}
