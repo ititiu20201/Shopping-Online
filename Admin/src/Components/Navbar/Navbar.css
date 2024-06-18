@@ -1,24 +1,35 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 60px;
-  box-shadow: 0 1px 3px -2px #000;
-  background: white;
+  padding: 10px;
+  background-color: #f8f9fa;
 }
+
 .nav-logo {
-  width: 200px;
+  height: 50px;
+  margin-right: 10px;
 }
+
 .nav-profile {
-  width: 75px;
+  height: 50px;
+  margin-left: auto;
 }
+
+.navbar p {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
 @media (max-width: 800px) {
   .navbar {
     padding: 15px 30px;
   }
+
   .nav-logo {
     width: 150px;
   }
+
   .nav-profile {
     width: 60px;
   }

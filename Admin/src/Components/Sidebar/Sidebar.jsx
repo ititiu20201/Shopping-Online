@@ -1,7 +1,7 @@
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
-import add_Product_icon from "../../assets/Product_Cart.svg";
-import list_product_icon from "../../assets/Product_list_icon.svg";
+import add_Product_icon from "../../assets/cart_icon.png";
+import list_product_icon from "../../assets/png-clipart-computer-icons-online-shopping-shopping-cart-service-shopping-cart-icon-text-service-thumbnail (2).jpg";
 
 const Sidebar = () => {
   return (
