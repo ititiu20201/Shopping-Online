@@ -25,12 +25,8 @@ const ShopContextProvider = (props) => {
         headers: {
           Accept: "application/form-data",
           "auth-token": `${localStorage.getItem("auth-token")}`,
-          "Content-Type": "application/json",
         },
-        body: "",
-      })
-        .then((response) => response.json())
-        .then((data) => setCartItems(data));
+      });
     }
   }, []);
 
