@@ -60,7 +60,7 @@ const LoginSignup = () => {
       <div className="loginsignup-container">
         <h1>{state}</h1>
         <div className="loginsignup-fields">
-          {state === "Sign up" && (
+          {state === "Sign up" ? (
             <input
               name="username"
               value={formData.username}
@@ -68,7 +68,10 @@ const LoginSignup = () => {
               type="text"
               placeholder="Your Name"
             />
+          ) : (
+            <></>
           )}
+
           <input
             name="email"
             value={formData.email}
